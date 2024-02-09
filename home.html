@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en"  data-lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="logo">
+                <a href="#">
+                 <img src="img/unnamed.png" alt="img" class="img-logo">
+                </a>
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#galleria">Galleria</a></li>
+                    <li><a href="#servizi">Servizi</a></li>
+                    <li><a href="#esperienza">Esperienza</a></li>
+                    <li><a href="#chi-siamo">Chi siamo</a></li>
+                    <li><a href="#contatti">Contatti</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Content goes here -->
+    </div>
+
+    <div class="container-ulg">
+        <img src="img/1.jpg" alt="" class="img-ulg">
+        <div class="text-overlay"><div class="coworking">
+            Uno spazio ​<br>
+            per le tue attività</div>
+                <div class="begraund-text">per le tue attività<br>
+                    <span class="no-wrap">Storica sala situata all'interno della sede della Alg</span>
+                </div>
+            </div>
+    </div>
+
+    <h2 class="info-h2-video">Informazioni sul video</h2>
+
+    <div class="video-text-container">
+        <div class="container-video">
+            <video id="videoPlayer" class="video-js" controls poster="img/photo_2024-01-26_18-18-25.jpg" >
+                <source src="s" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="text-container">
+            <p>CAPIENZA PUBBLICO: 32 persone</p>
+            <p>TAVOLO RELATORI: 6 persone</p>
+            <p>55 м2</p>
+            <div class="button-container">
+                <button id="openFormButton1">SCOPRI DI PIÙ</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <section id="galleria">
+        <!-- Содержимое раздела "Galleria" -->
+    
+
+    <h3 class="text-gell">Galleria</h3>
+
+    <div class="photo-container">
+        <div class="zoomable-image" onclick="zoomImage(this)">
+            <img src="img/3.jpg" alt="Photo 1" class="photo">
+        </div>
+        <div class="zoomable-image" onclick="zoomImage(this)">
+            <img src="img/4.jpg" alt="Photo 2" class="photo">
+        </div>
+        <div class="zoomable-image" onclick="zoomImage(this)">
+            <img src="img/5.jpg" alt="Photo 3" class="photo">
+        </div>
+        <div class="zoomable-image" onclick="zoomImage(this)">
+            <img src="img/photo_2024-01-26_18-14-16.jpg" alt="Photo 4" class="photo">
+        </div>
+        <div class="zoomable-image" onclick="zoomImage(this)">
+            <img src="img/IMG_6735.JPG" alt="Photo 5" class="photo">
+        </div>
+        <div class="zoomable-image" onclick="zoomImage(this)">
+            <img src="img/photo_2024-01-26_18-14-30.jpg" alt="Photo 6" class="photo">
+        </div>
+    </div>
+
+        <div id="overlay" onclick="hideOverlay()">
+            <div class="overlay-content">
+                <img id="zoomed-in-image" src="" alt="Zoomed In Image">
+            </div>
+        </div>
+
+        <section id="esperienza">
+            <!-- Содержимое раздела "Esperienza" -->
+       
+
+        <h1 class="text-la">
+            La nostra esperienza
+        </h1>
+
+        <div class="la-nostra-content">
+            <div class="text-la-con">
+                <p>La sala E adatta alle conferenze stampa: i relatori<br>
+                     hanno un posto confortevole attorno a un grande<br>
+                      tavolo, mentre i giornalisti e gli operatori possono<br>
+                       sedersi comodamente nella sala.</p>
+                       <div class="button-container-2">
+                        <button id="openFormButton2">SCOPRI DI PIÙ</button>
+                    </div>
+            </div>
+            
+            <div class="img-la-nostra" style="float: right;">
+                <img src="img/406970841_791704586090972_1191456410976213390_n (1).jpg" alt="">
+            </div>
+        </div>
+        <div class="la-nostra-content-2">
+            <div class="img-la-nostra-2">
+                <img src="img/IMG_6531.JPG" alt="">
+            </div>
+
+            <div class="text-la-con-2">
+                <p>
+                    Grazie a un ottimo videoproiettore e a un ampio<br>
+                     spazio, potrai presentare il tuo video agli ospiti.<br>
+                      Le finestre si chiudono completamente, così da<br>
+                      ottenere l'effetto di un cinema.
+                </p>
+                <div class="button-container-3" >
+                    <button id="openFormButton3">SCOPRI DI PIÙ</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="la-nostra-content-3">
+            <div class="text-la-con-2">
+                <p>
+                    Grazie a un ottimo videoproiettore e a un ampio<br>
+                     spazio, potrai presentare il tuo video agli ospiti.<br>
+                      Le finestre si chiudono completamente, così da<br>
+                      ottenere l'effetto di un cinema.
+                </p>
+                <div class="button-container-4">
+                    <button id="openFormButton4">SCOPRI DI PIÙ</button>
+                </div>
+            </div>
+            <div class="img-la-nostra-3">
+                <img src="img/IMG_1010.JPG" alt="">
+            </div>
+        </div>
+        </section>
+        </section>
+
+        <section id="servizi">
+        <h4>I nostri servizi</h4>
+        
+
+
+        
+            <!-- Содержимое раздела "Servizi" -->
+        
+        <div class="list-container">
+            <ul>
+                <li class="list-item"><img src="img/icon/floor-red.png" alt="Icon"> Affitto della stanza</li>
+                <li class="list-item"><img src="img/icon/projector.png" alt="Icon"> Proiettore</li>
+                <li class="list-item"><img src="img/icon/high-speed.png" alt="Icon"> Internet ad alta velocità</li>
+                <li class="list-item"><img src="img/icon/media.png" alt="Icon"> Registrazione di foto e video</li>
+            </ul>
+            <ul class="ul-bottom">
+                <li class="list-item"><img src="img/icon/cocktail.png" alt="Icon"> Aperitivo</li>
+                <li class="list-item"><img src="img/icon/press-release (1).png" alt="Icon"> Servizio di ufficio stampa</li>
+                <li class="list-item"><img src="img/icon/add-user.png" alt="Icon"> Invito multimediale</li>
+                <li class="list-item"><img src="img/icon/live.png" alt="Icon"> Eventi in streaming</li>
+            </ul>
+        </div>
+        </section>
+
+
+        <section id="chi-siamo">
+            <!-- Содержимое раздела "Chi siamo" -->
+        
+        <h6>Chi siamo</h6>
+            <div class="la-nostra-content-4">
+                <div class="img-la-nostra-4">
+                    <img src="img/IMG_7355_r.JPG" alt="">
+                </div>
+                <div class="text-la-con-4">
+                    <p>
+                        Associazione Lombarda dei<br>
+                        Giornalisti – Dal 1890 siamo il<br>
+                        sindacato dei  giornalisti della Lombardia,​<br>
+                        che tutela i diritti dei giornalisti e<br>
+                        difende la libertà di stampa.
+                    </p>
+                    
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contatti">
+            <!-- Содержимое раздела "Contatti" -->
+        
+        <h5>Scrivici e il nostro responsabile ti contatterà</h5>
+
+
+        <div class="form-map">
+            <div class="container-form">
+                <form id="form" action="form.php" method="post">
+                    <div>
+                        <input type="text" id="name" name="name" placeholder="Nome" pattern=".*\S.*" required>
+                    </div>
+        
+                    <div>
+                        <input type="tel" id="phone" name="phone" placeholder="Numero di telefono" pattern=".*\S.*" required>
+                    </div>
+        
+                    <div>
+                        <input type="email" id="email" name="email" placeholder="Email" pattern=".*\S.*" required>
+                    </div>
+        
+                    <div>
+                        <textarea id="message" name="message" placeholder="Messaggi"></textarea>
+                    </div>
+        
+                    <div class="dropdown">
+                        <div class="select-style">
+                            <select class="services select2" id="services" name="services">
+                                <option disabled selected>I nostri servizi</option>
+                                <option value="Affitto della stanza">Affitto della stanza</option>
+                                <option value="Proiettore">Proiettore</option>
+                                <option value="Internet ad alta velocità">Internet ad alta velocità</option>
+                                <option value="Registrazione di foto e video">Registrazione di foto e video</option>
+                                <option value="Aperitivo">Aperitivo</option>
+                                <option value="Servizio di ufficio stampa">Servizio di ufficio stampa</option>
+                                <option value="Invito multimediale">Invito multimediale</option>
+                                <option value="Eventi in streaming">Eventi in streaming</option>
+                            </select>
+                        </div>
+                    </div>
+        
+                    <div class="input-inva">
+                        <div>
+                            <input id="button-submit" type="submit" value="invia richiesta" class="third btn">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="container-contact">
+                <div class="logo-catt-con">
+                    <img class="logo-catt" src="img/unnamed.png" alt="">
+                    <p class="p-catt">Associazione Lombarda<br>
+                         dei Giornalisti</p>
+                </div>
+                <div class="logo-text-info">
+                    
+
+                     <div>
+
+                        <ul class="ul-con">
+                            <li>
+                                <a href="https://www.google.com/maps?q=37.7749,-122.4194" target="_blank">
+                                    <img class="icon-map" src="img/icon/free-icon-placeholder-filled-point-58960.png" alt="">
+                                    <span>Viale Monte Santo, 7, 20124 Milano MI</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tel:+1234567890">
+                                    <img class="icon-tel" src="img/icon/free-icon-phone-call-5585562.png" alt="">
+                                    <span>+1234567890</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:test@gmail.com">
+                                    <img src="img/icon/free-icon-mail-646135.png" alt="" class="icon-email">
+                                    <span>test@gmail.com</span>
+                                </a>
+                            </li>
+                        </ul>
+
+                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+        <div class="la-nostra-content-5">
+            <div class="text-la-con-5">
+                <p>
+                    
+                </p>
+                
+            </div>
+            <div class="img-la-nostra-5">
+                <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3153.645912657732!2d-122.42197492411644!3d37.774899971985306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzfCsDQ2JzI5LjYiTiAxMjLCsDI1JzA5LjgiVw!5e0!3m2!1sru!2sua!4v1707235089916!5m2!1sru!2sua&q=37.774899971985306,-122.42197492411644" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            
+        </div>
+
+
+
+        
+
+
+       
+        
+
+
+        <div class="form-overlay" id="formOverlay"></div>
+
+        <div class="form-map-2">
+            <div class="container-form-2">
+                <button class="x-but-form" onclick="closeForm()">
+                    x
+                </button>
+                <form id="form-2" action="form.php" method="post">
+                    <div>
+                        <input type="text" id="name" name="name" placeholder="Nome" pattern=".*\S.*" required>
+                    </div>
+        
+                    <div>
+                        <input type="tel" id="phone" name="phone" placeholder="Numero di telefono" pattern=".*\S.*" required>
+                    </div>
+        
+                    <div>
+                        <input type="email" id="email" name="email" placeholder="Email" pattern=".*\S.*" required>
+                    </div>
+        
+                    <div>
+                        <textarea id="message" name="message" placeholder="Messaggi"></textarea>
+                    </div>
+        
+                    <div class="dropdown">
+                        <div class="select-style">
+                            <select class="services select2" id="services" name="services">
+                                <option disabled selected>I nostri servizi</option>
+                                <option value="Affitto della stanza">Affitto della stanza</option>
+                                <option value="Proiettore">Proiettore</option>
+                                <option value="Internet ad alta velocità">Internet ad alta velocità</option>
+                                <option value="Registrazione di foto e video">Registrazione di foto e video</option>
+                                <option value="Aperitivo">Aperitivo</option>
+                                <option value="Servizio di ufficio stampa">Servizio di ufficio stampa</option>
+                                <option value="Invito multimediale">Invito multimediale</option>
+                                <option value="Eventi in streaming">Eventi in streaming</option>
+                            </select>
+                        </div>
+                    </div>
+        
+                    <div class="input-inva">
+                        <div>
+                            <input id="button-submit" type="submit" value="invia richiesta" class="third btn">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+       
+
+
+    <div class="vse">
+
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
